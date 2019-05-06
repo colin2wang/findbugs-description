@@ -1,10 +1,3 @@
-<html>
-<head>
-<meta content="text/html; charset=ISO-8859-1"
-http-equiv="content-type">
-<title></title>
-</head>
-<body>
 <h1
 style="color: rgb(0, 0, 0); font-family: &quot;Microsoft YaHei&quot;; font-style: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255);">FindBugs
 Bug Descriptions</h1>
@@ -4946,7 +4939,7 @@ will return array with six (!) elements: [, a, b, |, c, d]
 <h3><a name="RV_01_TO_INT">RV: Random value from 0 to 1 is coerced to
 the integer 0 (RV_01_TO_INT)</a></h3>
 <p>A random value from 0 to 1 is being coerced to the integer value
-0. You probably want to multiple the random value by something else
+1. You probably want to multiple the random value by something else
 before coercing it to an integer, or use the<span>&nbsp;</span><code>Random.nextInt(n)</code><span>&nbsp;</span>method.</p>
 <h3><a name="RV_ABSOLUTE_VALUE_OF_HASHCODE">RV: Bad attempt to
 compute absolute value of signed 32-bit hashcode
@@ -7064,6 +7057,3 @@ href="mailto:findbugs@cs.umd.edu" style="text-decoration: none;">findbugs@cs.umd
 src="http://sourceforge.net/sflogo.php?group_id=96405&amp;type=5"
 alt="FindBugs on SourceForge.net" border="0" height="62" width="210"></a></p>
 </li>
-</body>
-</html>
-
